@@ -1,6 +1,6 @@
-## Blog-api version 1.0.0
+# Blog-api version 1.0.0
 
-# How to set env mode
+## How to set env mode
 
 ```
 - open terminal
@@ -9,7 +9,7 @@
 - echo $NODE_ENV
 ```
 
-# Route
+## Route
 
 *** Prefix url with /api/<version> ex. /api/1.0.0/users ***
 
