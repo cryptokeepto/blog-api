@@ -4,5 +4,9 @@ module.exports = {
     },
     jwt: {
         secret: "cryptoKeeptoPro"
+    },
+    mongodb: {
+        uri: "mongodb://localhost:27017",
+        database: "blogDB"
     }
-}
+};

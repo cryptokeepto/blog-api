@@ -15,9 +15,14 @@
 
 ```
 
+----------------------
+USERS AUTHENTICATION
+----------------------
+POST        /register                                           [users_firstName, users_lastName, users_username, users_password, users_email]
+
+
+
 ```
 
 ## Flowchart
 -   https://docs.google.com/drawings/d/1QMrzFX2KEXbA6SYBgOWjcm94J4vwHpctJhc5fpBtADs/edit?usp=sharing
-
-power by cryptokeepto

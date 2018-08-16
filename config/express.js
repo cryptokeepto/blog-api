@@ -26,7 +26,7 @@ module.exports = function () {
 
   
     // routes
-    // require("../app/routes/users.route")(app);
+    require("../app/routes/users.route")(app);
     // require("../app/routes/admin.route")(app);
     // require("../app/routes/member.route")(app);
   
@@ -40,9 +40,6 @@ module.exports = function () {
         .status(404)
         .json({ error: "404 Page Not Found" });
     });
-  
-  
-  
   
     return app;
   };
