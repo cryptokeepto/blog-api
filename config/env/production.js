@@ -6,7 +6,7 @@ module.exports = {
         secret: "cryptoKeeptoPro"
     },
     mongodb: {
-        uri: "mongodb://localhost:27017",
-        database: "blogDB"
+        uri: "mongodb://cryptokeepto:7856ek31@ds125602.mlab.com:25602",
+        database: "blog"
     }
 };
